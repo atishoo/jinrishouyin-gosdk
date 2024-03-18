@@ -4,4 +4,11 @@
 今日收银 golang 版本的 sdk
 
 ## 使用
-`go get github.com/atishoo/jinrishouyin-gosdk`
+```shell
+go get -u github.com/atishoo/jinrishouyin-gosdk
+```
+
+## 初始化
+```golang
+var client = shouyin.NewShouyinTodayClient("appid", "private cert")
+```
